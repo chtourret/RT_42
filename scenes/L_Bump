@@ -1,0 +1,59 @@
+CAMERA
+{
+position:-8 4 14
+look_at:0 0 0
+}
+
+LIGHT
+{
+position:0 5 3
+}
+PLANE
+{
+scale:3 3 3
+texture:textures/bumpmap/a1.xpm
+bumpmap:textures/bumpmap/a1.xpm
+translate: 0 -2 0
+}
+
+CUBE
+{
+vertex_a: -2 -2 2
+vertex_b: 2 2 -2
+color: 200 200 200
+translate: 2 0 4
+}
+CONE
+{
+CUT
+{
+rotate_x:180
+}
+CUT
+{
+translate:0 2 0
+}
+scale:2 2 2
+rotate_x:180
+translate:-6 2 2
+texture:textures/bumpmap/b2.xpm
+bumpmap:textures/bumpmap/b2.xpm
+}
+CYLINDER
+{
+CUT
+{
+rotate_x:180
+color:200 200 200
+}
+CUT
+{
+translate:0 2 0
+color:200 200 200
+}
+rotate_x:90
+rotate_y: 30
+translate:-1.5 0 -1.5
+texture:textures/bumpmap/b3.xpm
+bumpmap:textures/bumpmap/b3.xpm
+}

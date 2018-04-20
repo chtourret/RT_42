@@ -1,0 +1,53 @@
+CAMERA
+{
+position:-2 4 10
+look_at:0 1 0
+}
+LIGHT
+{
+position:10 2 0
+}
+HYPERBOLOID
+{
+translate:2 0 0
+scale:0.4 1 0.4
+color:255 255 255
+bumpmap:textures/general/bumpmap.xpm
+texture:textures/general/texturetest.xpm
+sheetmode:0
+}
+HYPERBOLOID
+{
+translate:-6 0 0
+scale:0.4 1 0.4
+color:255 255 255
+bumpmap:textures/general/bumpmap.xpm
+texture:textures/general/texturetest.xpm
+sheetmode:1
+}
+PLANE
+{
+texture:textures/bumpmap/pb.xpm
+bumpmap:textures/bumpmap/pb.xpm
+reflection:0.3
+shine:0.3
+}
+CUBE
+{
+rotate_y: -30
+translate:4 0 -4
+color:200 200 200
+CUT
+{
+color:200 200 200
+translate:0 1 0
+rotate_z: 24
+}
+CUT
+{
+color:200 200 200
+rotate_z: -40
+translate:1 1 0
+rotate_z: -40
+}
+}

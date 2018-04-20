@@ -1,0 +1,129 @@
+CAMERA
+{
+position:0 0 40
+look_at:9 0 0
+}
+ambient:1
+LIGHT
+{
+position:-20 0 40
+}
+LIGHT
+{
+position:-20 0 -40
+}
+PLANE
+{
+rotate_x:90
+translate:0 0 -100
+texture:textures/universe/stars.xpm
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:0.2 0.2 0.2
+texture:textures/universe/mercure.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:0.4 0.4 0.4
+translate:2 0 0
+texture:textures/universe/venus.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:0.3 0.3 0.3
+translate:4 0 0
+texture:textures/universe/terre.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:0.2 0.2 0.2
+translate:6 0 0
+texture:textures/universe/mars.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:3 3 3
+translate:11 0 0
+texture:textures/universe/jupiter.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:2.5 2.5 2.5
+rotate_z:30
+translate:19 0 0
+texture:textures/universe/saturne.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+CSG,DIFF
+{
+
+SPHERE
+{
+scale:5 0.03 5
+rotate_z:30
+translate:19 0 0
+texture:textures/universe/ring.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+
+CYLINDER
+{
+scale:3.6 1 3.6
+rotate_z:30
+translate:19 0 0
+texture:textures/universe/ring.xpm
+shine:0
+reflection:0
+}
+}
+
+SPHERE
+{
+scale:1.3 1.3 1.3
+translate:26 0 0
+texture:textures/universe/uranus.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:1.2 1.2 1.2
+translate:31 0 0
+texture:textures/universe/neptune.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}
+SPHERE
+{
+scale:13 13 13
+translate:-15 0 0
+texture:textures/universe/sun.xpm
+bumpmap:textures/universe/sun.xpm
+texscale: 1 -1
+shine:0
+reflection:0
+}

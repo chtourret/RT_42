@@ -1,0 +1,212 @@
+CAMERA
+{
+position:-3 14 40
+look_at:0 0 -10
+}
+
+LIGHT
+{
+position:0 9 0
+}
+
+SPHERE
+{
+texture:textures/billard/1.xpm
+texscale: 1 -1
+translate:-2 0 -13
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/2.xpm
+texscale: 1 -1
+translate:0 0 -13
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/3.xpm
+texscale: 1 -1
+translate:2 0 -13
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/4.xpm
+texscale: 1 -1
+translate:4 0 -13
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/5.xpm
+texscale: 1 -1
+translate:6 0 -13
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/6.xpm
+texscale: 1 -1
+translate:-1 0 -11
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/7.xpm
+texscale: 1 -1
+translate:1 0 -11
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/8.xpm
+texscale: 1 -1
+translate:3 0 -11
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/9.xpm
+texscale: 1 -1
+translate:5 0 -11
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/10.xpm
+texscale: 1 -1
+translate:0 0 -9
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/11.xpm
+texscale: 1 -1
+translate:2 0 -9
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/12.xpm
+texscale: 1 -1
+translate:4 0 -9
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/13.xpm
+texscale: 1 -1
+translate:1 0 -7
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/14.xpm
+texscale: 1 -1
+translate:3 0 -7
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texture:textures/billard/15.xpm
+texscale: 1 -1
+translate:2 0 -5
+scale:0.5 0.5 0.5
+reflection:0.2
+}
+SPHERE
+{
+texscale: 1 -1
+scale:0.5 0.5 0.5
+translate:2 0 9
+reflection:0
+color:255 255 255
+}
+CYLINDER
+{
+scale:0.1 1 0.1
+rotate_x:85
+rotate_y:10
+translate:2 0 10
+reflection:0
+shine:0.1
+texture:textures/billard/wood.xpm
+CUT
+{
+rotate_z:180
+}
+CUT
+{
+translate:0 15 0
+}
+}
+PLANE
+{
+texture:textures/billard/table.xpm
+bumpmap:textures/billard/table.xpm
+translate: 0 -0.5 0
+reflection:0.01
+CUT
+{
+rotate_z:90
+translate:-7 0 0
+}
+CUT
+{
+rotate_z:-90
+translate:8 0 0
+}
+CUT
+{
+rotate_x:90
+translate:0 0 21
+}
+CUT
+{
+rotate_x:-90
+translate:10 0 -21
+}
+}
+CUBE
+{
+vertex_a: -8 -1 22
+vertex_b: -7 1 -23
+color:135 90 47
+reflection:0
+}
+CUBE
+{
+vertex_a: -8 -1 -23
+vertex_b: 9 1 -22
+color:135 90 47
+reflection:0
+}
+CUBE
+{
+vertex_a: 8 -1 22
+vertex_b: 9 1 -23
+color:135 90 47
+reflection:0
+}
+CUBE
+{
+vertex_a: -8 -1 21
+vertex_b: 9 1 22
+color:135 90 47
+reflection:0
+}

@@ -1,0 +1,54 @@
+CAMERA
+{
+position:0 0 15
+look_at:0 0 0
+}
+ambient:0
+LIGHT
+{
+position:0 0 0
+color:0 255 0
+}
+LIGHT
+{
+position:-4 0 0
+color:255 0 0
+}
+LIGHT
+{
+position:4 0 0
+color:0 0 255
+}
+CSG,DIFF
+{
+PRISM
+{
+scale:5 5 5
+color:255 255 255
+shine:1
+reflection:1
+}
+CYLINDER
+{
+rotate_x:90
+scale: 2.5 2.5 2.5
+color:255 255 255
+shine:1
+reflection:1
+}
+}
+SPHERE
+{
+scale:0.6 0.6 0.6
+translate: 0 1 0
+}
+SPHERE
+{
+scale:0.6 0.6 0.6
+translate: -1 -0.5 0
+}
+SPHERE
+{
+scale:0.6 0.6 0.6
+translate: 1 -0.5 0
+}

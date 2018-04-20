@@ -1,0 +1,39 @@
+AAlvl:3
+CAMERA
+{
+position:-2 4 10
+look_at:0 1 0
+}
+LIGHT
+{
+position:4 4 4
+}
+CSG,DIFF
+{
+PLANE
+{
+texmodifier:1
+texture:textures/bumpmap/glass.xpm
+bumpmap:textures/bumpmap/glass.xpm
+}
+SPHERE
+{
+scale: 3 3 3
+translate: 1 0 0
+}
+}
+CSG,DIFF
+{
+CYLINDER
+{
+texture:textures/bumpmap/pb.xpm
+bumpmap:textures/bumpmap/pb.xpm
+}
+CYLINDER
+{
+scale: 0.8 1 0.8
+rotate_x: 90
+translate:0 1 0
+color: 255 255 255
+}
+}

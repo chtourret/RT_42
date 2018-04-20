@@ -1,0 +1,78 @@
+SPHERE
+{
+scale:2 2 2
+translate:9 0 0
+reflection:0
+shine:0
+CUT
+{
+rotate_y:-90
+rotate_x:90
+scale:2 2 1
+shine:0
+texoffset:0.25 0
+texture:textures/face/large_rqueverd.xpm
+}
+}
+
+SPHERE
+{
+scale:2 2 2
+translate:3 0 0
+reflection:0
+shine:0
+CUT
+{
+rotate_y:-90
+rotate_x:90
+scale:2 2 1
+shine:0
+texoffset:0.75 0
+texture:textures/face/large_tglandai.xpm
+}
+}
+
+SPHERE
+{
+scale:2 2 2
+translate:-3 0 0
+reflection:0
+shine:0
+CUT
+{
+rotate_y:-90
+rotate_x:90
+scale:2 2 1
+shine:0
+texoffset:0.25 0
+texture:textures/face/large_aboualav.xpm
+}
+}
+
+SPHERE
+{
+scale:2 2 2
+translate:-9 0 0
+reflection:0
+shine:0
+CUT
+{
+rotate_y:-90
+rotate_x:90
+scale:2 2 1
+shine:0
+texoffset:0.75 0
+texture:textures/face/large_ctourret.xpm
+}
+}
+
+CAMERA
+{
+position:-1 2 22
+look_at:-1 0 0
+}
+
+LIGHT
+{
+position:0 5 40
+}

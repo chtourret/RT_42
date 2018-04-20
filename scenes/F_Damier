@@ -1,0 +1,56 @@
+CAMERA
+{
+position:-2 4 10
+look_at:0 1 0
+}
+LIGHT
+{
+position:1 2 0
+color:150 150 150
+}
+LIGHT
+{
+position:-1 2 0
+color:34 134 255
+}
+PRISM
+{
+color: 150 150 150
+reflection:1
+shine:1
+vertex_a: -2 0 0
+vertex_b: 2 0 0
+vertex_c: 0 0 -2
+vertex_d: 0 4 -1
+CUT
+{
+translate: 0 0.5 0
+color: 150 150 150
+}
+}
+SPHERE
+{
+translate: 0 1.5 -1
+texture:textures/multi/t3.xpm
+CUT
+{
+color:0 0 0
+rotate_z: 30
+translate:0 0.5 0
+shine:1
+}
+CUT
+{
+rotate_z: -30
+translate:0 0.5 0
+color:0 0 0
+shine:1
+}
+}
+PLANE
+{
+texmodifier:3
+color:30 30 30
+reflection:0.2
+shine:0.4
+}

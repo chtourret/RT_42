@@ -1,0 +1,66 @@
+CAMERA
+{
+position:0 2 20
+look_at:0 0 0
+}
+LIGHT
+{
+position:0 5 3
+}
+SPHERE
+{
+translate:-5 1 0
+color: 255 255 0
+}
+SPHERE
+{
+translate:-7 3 0
+color: 0 255 255
+}
+SPHERE
+{
+translate:-6 -1 0
+color: 255 0 255
+}
+PLANE
+{
+translate:0 -3 0
+color:0 0 200
+reflection:0.1
+}
+CYLINDER
+{
+color: 0 0 255
+}
+CYLINDER
+{
+rotate_z:30
+color: 0 255 0
+}
+CYLINDER
+{
+rotate_z:-30
+color: 255 0 0
+}
+CONE
+{
+translate: 9 0 0
+reflection:0.2
+color: 60 60 60
+}
+CONE
+{
+rotate_z:40
+rotate_y:-40
+translate: 9 0 0
+reflection:0.2
+color: 160 160 160
+}
+CONE
+{
+rotate_z:-40
+rotate_y:-40
+translate: 9 0 0
+color: 230 230 230
+reflection:0.2
+}

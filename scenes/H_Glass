@@ -1,0 +1,106 @@
+CAMERA
+{
+position:-15 5 15
+look_at:0 0 0
+}
+LIGHT
+{
+position:100 100 100
+}
+ambient:0.6
+
+CONE
+{
+scale:3 0.3 3
+reflection:0.1
+color:30 30 30
+texture:textures/bumpmap/glass.xpm
+CUT
+{
+}
+CUT
+{
+rotate_z:180
+translate:0 -2 0
+}
+}
+CYLINDER
+{
+color:30 30 30
+scale:0.1 1 0.1
+reflection:0.1
+color: 150 150 150
+texture:textures/bumpmap/glass.xpm
+CUT
+{
+rotate_z:180
+translate:0 -0.1 0
+}
+CUT
+{
+translate:0 2 0
+}
+}
+CSG,DIFF
+{
+SPHERE
+{
+color: 150 150 150
+translate:0 2.4 0
+scale:0.8 1.2 0.5
+reflection:0.1
+texture:textures/bumpmap/glass.xpm
+}
+SPHERE
+{
+color: 150 150 150
+translate:0 4 0
+scale:0.5 0.9 0.3
+reflection:0.1
+texture:textures/bumpmap/glass.xpm
+}
+}
+PLANE
+{
+scale:7 1 7
+texture:textures/bumpmap/table.xpm
+bumpmap:textures/bumpmap/table.xpm
+translate: 0 -0.5 0
+reflection:0.01
+shine:0.01
+CUT
+{
+rotate_z:90
+translate:-5 0 0
+}
+CUT
+{
+rotate_z:-90
+translate:5 0 0
+}
+CUT
+{
+rotate_x:90
+translate:0 0 5
+}
+CUT
+{
+rotate_x:-90
+translate:10 0 -5
+}
+}
+PLANE
+{
+translate:0 -0.51 0
+texture:textures/bumpmap/grass.xpm
+reflection:0
+shine:0.1
+}
+PLANE
+{
+rotate_x:90
+translate:0 0 -100
+color: 0 191 255
+shine:0
+reflection:0
+}

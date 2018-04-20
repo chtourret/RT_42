@@ -1,0 +1,71 @@
+CAMERA
+{
+position:-2 2 10
+look_at:0 0 0
+}
+LIGHT
+{
+position:0 3 0
+color:255 0 0
+}
+LIGHT
+{
+position:-3 3 0
+color:0 255 0
+}
+LIGHT
+{
+position:3 3 0
+color:0 0 255
+}
+LIGHT
+{
+position:0 -3 0
+color:100 100 100
+}
+
+CSG,DIFF
+{
+CUBE
+{
+translate: 3 0 0
+color:255 0 0
+}
+SPHERE
+{
+color:30 30 30
+scale:1.2 1.2 1.2
+translate: 3 0 0
+reflection:0.1
+}
+}
+CSG,INTER
+{
+CUBE
+{
+translate: 0 0 0
+color:255 0 0
+}
+SPHERE
+{
+color:30 30 30
+scale:1.2 1.2 1.2
+translate: 0 0 0
+reflection:0.1
+}
+}
+CSG,UNION
+{
+CUBE
+{
+translate: -3 0 0
+color:255 0 0
+}
+SPHERE
+{
+color:30 30 30
+scale:1.2 1.2 1.2
+translate: -3 0 0
+reflection:0.1
+}
+}
